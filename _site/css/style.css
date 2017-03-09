@@ -1,16 +1,8 @@
+/*-- Universal --*/
+
 * {
   /*border: 1px solid teal;*/
 }
-
-img {
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
-}
-
-/*-- Universal --*/
 
 @font-face {
   font-family: 'MuseoSans';
@@ -30,6 +22,20 @@ a {
 
 body {
   font-family: 'MuseoSans', sans-serif;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.valledofas {
+  font-family: 'Valledofas', sans-serif;
+  font-size: 2rem;
 }
 
 /*-- Header --*/
@@ -48,15 +54,13 @@ body {
   text-align: right;
 }
 
-
+.social_navigation img {
+  width: 40px;
+}
 
 
 /*-- Footer --*/
 
 footer {
  text-align: center;
-}
-
-#valledofas {
-  font-family: 'Valledofas', sans-serif;
 }
