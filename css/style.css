@@ -10,10 +10,38 @@ a {
   text-decoration: none;
 }
 
+/*-- Universal --*/
+
+@font-face {
+  font-family: 'MuseoSans';
+  src:
+    local('MuseoSans_100'),
+    url('/fonts/museosans_100.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: 'Valledofas';
+  src:
+    local('Valledofas'),
+    url('/fonts/valledofas.otf')
+    format('opentype');
+}
+
+body {
+  font-family: 'MuseoSans', sans-serif;
+}
+
 /*-- Header --*/
 
 .navigation {
   text-align: center;
+  text-transform: uppercase;
+  padding: 1.5%;
+}
+
+.logo img {
+  width: 17%;
 }
 
 .social_navigation {
@@ -21,8 +49,14 @@ a {
 }
 
 
+
+
 /*-- Footer --*/
 
 footer {
  text-align: center;
+}
+
+#valledofas {
+  font-family: 'Valledofas', sans-serif;
 }
