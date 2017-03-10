@@ -2,6 +2,9 @@
 
 * {
   /*border: 1px solid teal;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -40,6 +43,10 @@ a {
 
 /*-- Header --*/
 
+header nav {
+  margin-left: -6%;
+}
+
 .navigation {
   text-align: center;
   text-transform: uppercase;
@@ -50,12 +57,12 @@ a {
   width: 17%;
 }
 
-.social_navigation {
+header .social_navigation {
   text-align: right;
 }
 
 .social_navigation img {
-  width: 40px;
+  width: 45px;
 }
 
 /*-- Body --*/
@@ -68,4 +75,8 @@ a {
 
 footer {
  text-align: center;
+}
+
+.footer-logo img {
+  width: 40%;
 }
