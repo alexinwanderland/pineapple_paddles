@@ -16,6 +16,14 @@
 }
 
 @font-face {
+  font-family: 'MuseoSans300';
+  src:
+    local('MuseoSans_300'),
+    url('/fonts/museosans_300.otf')
+    format('opentype');
+}
+
+@font-face {
   font-family: 'Valledofas';
   src:
     local('Valledofas'),
@@ -34,6 +42,11 @@ img {
 
 a {
   text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #05a9a3;
 }
 
 .valledofas {
@@ -53,6 +66,10 @@ header nav {
   padding: 1.5%;
 }
 
+header nav {
+  font-family: 'MuseoSans300';
+}
+
 .logo img {
   width: 17%;
 }
@@ -67,8 +84,18 @@ header .social_navigation {
 
 /*-- Body --*/
 
+.threeacross {
+  padding: 10px;
+}
+
 #aboutblurb  {
   padding: 50px;
+}
+
+.aboutlink {
+  font-style: italic;
+  font-family: 'MuseoSans300';
+  text-align: center;
 }
 
 /*-- Footer --*/
