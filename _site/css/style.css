@@ -176,6 +176,10 @@ button {
   padding: 3vh 5vh;
 }
 
+button:hover {
+
+}
+
 /*-- Find Us --*/
 
 #map {
@@ -220,13 +224,11 @@ button {
 
 footer {
  text-align: center;
- background-color: #05a9a3;
 }
 
 .footer-logo img {
   width: 40%;
 }
-
 
 /*Image hover*/
 
@@ -251,7 +253,7 @@ footer {
   height: 100%;
   color: #fff;
   text-align: center;
-  padding: 12rem 0;
+  padding: 0;
 
   /*
   * Mandatory code
