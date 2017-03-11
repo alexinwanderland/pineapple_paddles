@@ -52,6 +52,7 @@ a:hover {
 p {
   margin-bottom: 2%;
   margin-top: 2%;
+  line-height: 1.4rem;
 }
 
 .valledofas {
@@ -59,8 +60,8 @@ p {
   font-size: 2rem;
 }
 
-h2 {
-  color: #05a9a3;
+section {
+  padding: 10vh 30vh;
 }
 
 /*-- Header --*/
@@ -91,6 +92,10 @@ header .social_navigation {
   width: 45px;
 }
 
+h2 {
+  color: #05a9a3;
+}
+
 /*-- Body --*/
 
 .threeacross {
@@ -98,7 +103,13 @@ header .social_navigation {
 }
 
 #aboutblurb  {
+
   padding: 50px;
+}
+
+#aboutblurb .owl-carousel {
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .aboutlink {
@@ -159,24 +170,21 @@ header .social_navigation {
 /*-- Form --*/
 
 button {
-    color: #05a9a3;
-    border: 1px #05a9a3;
-    font-family: 'MuseoSans100', sans-serif;
-
-
+  color: #05a9a3;
+  border: 1px #05a9a3;
+  font-family: 'MuseoSans100', sans-serif;
+  padding: 3vh 5vh;
 }
 
 /*-- Find Us --*/
 
 #map {
-    width: 750px;
-    height: 300px;
+  width: 750px;
+  height: 300px;
 }
 
 .findus {
   padding-top: 0;
-  padding-left: 7%;
-  padding-right: 7%;
 }
 
 .findus h2 {
@@ -194,8 +202,6 @@ button {
 
 .findus2  {
   padding-top: 0;
-  padding-right: 7%;
-
 }
 
 .findus2 h2 {
@@ -206,6 +212,7 @@ button {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  text-align: right;
 }
 
 
@@ -270,4 +277,33 @@ footer {
 
   /* Show the hover content */
   opacity: 1;
+}
+
+/* ----- FORMS ---- */
+
+input,
+textarea {
+  border: 1px solid #eee;
+  padding: 0.8em;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  vertical-align: top;
+}
+
+textarea {
+  min-height: 7em;
+}
+
+input[type="submit"] {
+  width: auto;
+  display: block;
+  background-color: red; /* featured color */
+  color: #fff;
+  border: none;
+}
+
+form [class*=col-] {
+  padding: 1%;
 }
