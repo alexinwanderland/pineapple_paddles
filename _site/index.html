@@ -10,6 +10,9 @@
   <!-- Gridlex: http://gridlex.devlint.fr -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.5/gridlex.min.css">
 
+  <!-- OwlCarousel: https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
   <!-- Style.css is always at the bottom of the head tag! -->
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 
@@ -56,7 +59,7 @@
 
 <!-- Pineapples -->
 
-<section class="threeacross" class="grid" >
+<section class="threeacross grid" class="grid" >
 
   <!-- Pineapple 1 -->
     <div class="col">
@@ -83,18 +86,13 @@
     <p class="aboutlink"><a href="about.html">+ Read more about Pineapple Paddles +</a></p>
   </div>
 
-  <div class="col-6" id="aboutblurb">
-    <img src="images/watercolor.jpg">
-
+  <div id="aboutblurb" class="owl-carousel col-6" style="background-image:url('images/watercolor.jpg')">
     <img src="images/quoteone.png">
-
     <img src="images/quotetwo.png">
-
     <img src="images/quotethree.png">
-
   </div>
-
 </section>
+
 
   <!-- Instagram Slider -->
 
@@ -130,12 +128,16 @@
 </footer>
 
 <!-- jQuery plugin -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <!-- isotope plugin -->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.3/isotope.pkgd.min.js"></script>
+
+<!-- jQuery owlcarousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js"></script>
 
   </body>
 </html>
