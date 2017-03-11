@@ -107,3 +107,54 @@ footer {
 .footer-logo img {
   width: 40%;
 }
+
+.hover-container {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+
+  /*
+  * Mandatory code
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hover-content {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 12rem 0;
+
+  /*
+  * Mandatory code
+  */
+
+  /* Hide the hover content */
+  opacity: 0;
+  /* Animates the opacity hover */
+  transition: opacity 0.3s ease;
+}
+.hover-content h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.hover-content p {
+  font-size: 1rem;
+}
+
+.hover-container:hover .hover-content {
+  /*  When you hover on the .hover-container, style the .hover-content  */
+
+  /*
+  * Mandatory code
+  */
+
+  /* Show the hover content */
+  opacity: 1;
+}
