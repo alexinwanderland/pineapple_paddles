@@ -57,7 +57,6 @@ p {
 
 .valledofas {
   font-family: 'Valledofas', sans-serif;
-  font-size: 2rem;
 }
 
 section {
@@ -96,6 +95,21 @@ h2 {
   color: #05a9a3;
 }
 
+h3 {
+  color: #05a9a3;
+  font-size: 3.5rem;
+  padding: 2% 2% 2% 10%;
+  background-image: url("../images/aboutwatercolor.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h3.right {
+  padding: 2%;
+  padding-right: 9%;
+  background-position: right;
+}
+
 /*-- Body --*/
 
 .threeacross {
@@ -126,14 +140,14 @@ h2 {
   width: 70%;
 }
 
-.about1 h2 {
+/*.about1 h2 {
   font-size: 3.5rem;
   padding: 2%;
   padding-left: 11%;
   background-image: url("../images/aboutwatercolor.png");
   background-repeat: no-repeat;
   background-size: contain;
-}
+}*/
 
 .about1 p {
   padding-left: 5%;
@@ -143,7 +157,7 @@ h2 {
   padding-right: 11%;
 }
 
-.about2 h2 {
+/*.about2 h2 {
   font-size: 3.5rem;
   padding: 2%;
   padding-right: 9%;
@@ -151,7 +165,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-}
+}*/
 
 .aboutimages img {
   padding: 1%;
@@ -166,19 +180,17 @@ h2 {
   padding-right: 5%;
 }
 
+/*-- Offerings Pages --*/
 
-/*-- Form --*/
-
-button {
-  color: #05a9a3;
-  border: 1px #05a9a3;
-  font-family: 'MuseoSans100', sans-serif;
-  padding: 3vh 5vh;
+.fullwidthp {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-button:hover {
-
+#calendar {
+  width: 70%;
 }
+
 
 /*-- Find Us --*/
 
@@ -191,24 +203,24 @@ button:hover {
   padding-top: 0;
 }
 
-.findus h2 {
+/*.findus h2 {
   font-size: 3.5rem;
   padding: 2%;
   padding-left: 10%;
   background-image: url("../images/aboutwatercolor.png");
   background-repeat: no-repeat;
   background-size: contain;
-}
+}*/
 
 .findus p {
-  padding-left: 5%;
+  padding: 0 5%;
 }
 
 .findus2  {
   padding-top: 0;
 }
 
-.findus2 h2 {
+/*.findus2 h2 {
   font-size: 3.5rem;
   padding: 2%;
   padding-right: 10%;
@@ -217,13 +229,14 @@ button:hover {
   background-size: contain;
   background-position: right;
   text-align: right;
-}
+}*/
 
 
 /*-- Footer --*/
 
 footer {
  text-align: center;
+ background-color: #05a9a3;
 }
 
 .footer-logo img {
@@ -264,12 +277,26 @@ footer {
   /* Animates the opacity hover */
   transition: opacity 0.3s ease;
 }
+
+.hover-content img {
+  display: block;
+}
+
 .hover-content h2 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
+
 .hover-content p {
   font-size: 1rem;
+}
+
+.hover-class .hover-content {
+  padding: 7rem 2rem;
+}
+
+.hover-class .hover-content p {
+  text-align: left;
 }
 
 .hover-container:hover .hover-content {
@@ -310,4 +337,20 @@ input[type="submit"] {
 
 form [class*=col-] {
   padding: 1%;
+}
+
+button {
+  font-family: 'valledofas', sans-serif;
+  font-size: 3.5rem;
+  padding: 1vh 10vh 0vh;
+  background-image: url(../images/aboutwatercolor.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  border: none;
+  color: #05a9a3;
+}
+
+button:hover {
+  color: white;
 }
