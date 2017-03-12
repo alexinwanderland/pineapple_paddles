@@ -55,6 +55,18 @@ p {
   line-height: 1.4rem;
 }
 
+p a {
+  color: #05a9a3;
+}
+
+p a:hover {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
 .valledofas {
   font-family: 'Valledofas', sans-serif;
 }
@@ -164,11 +176,11 @@ h3.right {
 
 /*-- About Page --*/
 
-.about1 {
+/*.about1 {
   padding-top: 0;
   padding-left: 11%;
   width: 70%;
-}
+}*/
 
 /*.about1 h2 {
   font-size: 3.5rem;
@@ -179,13 +191,13 @@ h3.right {
   background-size: contain;
 }*/
 
-.about1 p {
+/*.about1 p {
   padding-left: 5%;
 }
 
 .about2 {
   padding-right: 11%;
-}
+}*/
 
 /*.about2 h2 {
   font-size: 3.5rem;
@@ -218,7 +230,7 @@ h3.right {
 }
 
 #calendar {
-  width: 70%;
+  width: 100%;
 }
 
 
@@ -275,6 +287,10 @@ footer {
 
 #paddleinparadise {
   font-size: 2rem;
+}
+
+footer a {
+  color: #333;
 }
 
 footer a:hover {
@@ -380,8 +396,9 @@ form [class*=col-] {
 button {
   font-family: 'valledofas', sans-serif;
   font-size: 3.5rem;
-  padding: 1vh 10vh 0vh;
-  background-image: url(../images/aboutwatercolor.png);
+  line-height: 1;
+  padding: 1.2rem 2rem;
+  background-image: url(../images/aboutwatercolors2.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: white;
