@@ -65,9 +65,6 @@ section {
 
 /*-- Header --*/
 
-header nav {
-  margin-left: -6%;
-}
 
 .navigation {
   text-align: center;
@@ -77,10 +74,32 @@ header nav {
 
 header nav {
   font-family: 'MuseoSans300';
+  position: relative;
 }
 
-.logo img {
-  width: 17%;
+header nav a.active {
+  color: #05a9a3;
+}
+
+.header-logo {
+  padding: 0 0 1rem;
+}
+
+.logo {
+  background: white;
+}
+
+.nav-bg {
+  background: white;
+  padding: 0 5%;
+  margin: 0 -10px;
+}
+
+hr {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  z-index: -1;
 }
 
 header .social_navigation {

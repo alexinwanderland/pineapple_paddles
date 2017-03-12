@@ -1,4 +1,5 @@
 <header class="navigation">
+
   <div class="social_navigation">
     <a href="https://www.facebook.com/pineapplepaddles">
       <img alt="Pineapple Paddles Facebook" src="images/facebook.jpg"></a>
@@ -9,16 +10,52 @@
   </div>
 
   <nav>
-    <a href="classes_events.html">classes</a> /
-    <a href="lessons_rentals.html">lessons + rentals</a>
-    <span class="logo">
-      <a href="index.html">
-        <img src="images/logo.png" align="center" alt="Pineapple Paddes, SUP in San Juan del Sur, Nicaragua">
-      </a>
-    </span>
-    <a href="shop.html">shop</a> /
-    <a href="about.html">about</a> /
-    <a href="find_us.html">find us</a> 
-  </nav>
+    <hr />
+    <div class="grid-middle">
+      <div class="col-5" align="right">
+        <span class="nav-bg">
+          {% if page.active == "classes_events" %}
+            <a href="classes_events" class="active">classes</a> /
+          {% else %}
+            <a href="classes_events">classes</a> /
+          {% endif %}
 
+          {% if page.active == "lessons_rentals" %}
+          <a href="lessons_rentals" class="active">lessons + rentals</a>
+          {% else %}
+            <a href="lessons_rentals">lessons + rentals</a> /
+          {% endif %}
+        </span>
+      </div>
+      <div class="col-2 header-logo">
+        <span class="logo">
+          <a href="index">
+            <img src="images/logo.png" align="center" alt="Pineapple Paddes, SUP in San Juan del Sur, Nicaragua">
+          </a>
+        </span>
+      </div>
+      <div class="col-5" align="left">
+        <span class="nav-bg">
+          {% if page.active == "shop" %}
+            <a href="shop" class="active">shop</a> /
+          {% else %}
+            <a href="shop">shop</a> /
+          {% endif %}
+
+          {% if page.active == "about" %}
+            <a href="about" class="active">about</a> /
+          {% else %}
+            <a href="about">about</a> /
+          {% endif %}
+
+          {% if page.active == "find_us" %}
+            <a href="find_us" class="active">find us</a>
+          {% else %}
+            <a href="find_us">find us</a>
+          {% endif %}
+
+        </span>
+      </div>
+    </div>
+  </nav>
 </header>
