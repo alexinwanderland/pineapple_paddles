@@ -132,6 +132,17 @@ h3.right {
   text-align: center;
 }
 
+.aboutlink a {
+    color: #05a9a3;
+}
+
+.aboutlink a:hover {
+  font-style: italic;
+  font-family: 'MuseoSans300';
+  text-align: center;
+  color: black;
+}
+
 /*-- About Page --*/
 
 .about1 {
@@ -241,6 +252,14 @@ footer {
 
 .footer-logo img {
   width: 40%;
+}
+
+#paddleinparadise {
+  font-size: 2rem;
+}
+
+footer a:hover {
+  color: white;
 }
 
 /*Image hover*/
