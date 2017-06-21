@@ -9,9 +9,9 @@
 
 @font-face {
   font-family: 'MuseoSans';
-  src:
+  src: url('/fonts/museosans_100.otf');
     /*local('MuseoSans_100'),*/
-    url('/fonts/museosans_100.otf')
+   
     /*format('opentype');*/
 }
 
