@@ -10,7 +10,7 @@
 @font-face {
   font-family: 'MuseoSans';
   src:
-    local('MuseoSans_100'),
+    /*local('MuseoSans_100'),*/
     url('/fonts/museosans_100.otf')
     format('opentype');
 }
