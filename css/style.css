@@ -12,7 +12,7 @@
   src:
     /*local('MuseoSans_100'),*/
     url('/fonts/museosans_100.otf')
-    format('opentype');
+    /*format('opentype');*/
 }
 
 @font-face {
