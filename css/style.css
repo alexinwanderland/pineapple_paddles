@@ -19,7 +19,7 @@
   font-family: 'MuseoSans300';
   src:
     local('MuseoSans_300'),
-    url('/fonts/museosans_300.otf')
+    url('/fonts/MuseoSans_300.otf')
     format('opentype');
 }
 
@@ -27,7 +27,7 @@
   font-family: 'Valledofas';
   src:
     local('Valledofas'),
-    url('/fonts/valledofas.otf')
+    url('/fonts/Valledofas.otf')
     format('opentype');
 }
 
